@@ -27,7 +27,7 @@ public class ComposeActivity extends AppCompatActivity {
 
         client = TwitterApplication.getRestClient(this);
 
-        Button button = findViewById(R.id.button);
+        Button button = findViewById(R.id.bTweetButton);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 EditText etName = findViewById(R.id.editText);
